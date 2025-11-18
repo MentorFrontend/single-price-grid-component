@@ -1,0 +1,40 @@
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text: hsl(71, 73%, 54%);
+  --card-bg: hsl(179, 62%, 43%);
+  --sub-card-text: hsl(204, 43%, 93%);
+  --main-text-color: hsl(218, 22%, 67%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  margin: auto 0;
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  gap: 3rem;
+}
+
+/* footer */
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}

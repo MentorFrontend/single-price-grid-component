@@ -14,7 +14,7 @@
   --card-bg: hsl(179, 62%, 43%);
   --sub-card-text: hsl(204, 43%, 93%);
   --main-text-color: hsl(218, 22%, 67%);
-
+  --second-card-bg: #4abebd;
   --radius: 8px;
 }
 
@@ -117,7 +117,7 @@ main .information {
 .advantages {
   display: flex;
   color: white;
-  background: #4abebd;
+  background: var(--second-card-bg);
   flex-direction: column;
   font-size: 0.8rem;
   word-spacing: 0.1em;
@@ -131,13 +131,13 @@ main .information {
   font-weight: 500;
 }
 .advantages p {
-  line-height: 1.5 em;
+  line-height: 1.5em;
 }
 /* footer */
 footer {
-  font-size: 11px;
+  font-size: 0.8rem;
   text-align: center;
-  background: #4abebd;
+  background: var(--second-card-bg);
 }
 footer a {
   color: hsl(228, 45%, 44%);
